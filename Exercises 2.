@@ -1,6 +1,6 @@
-#**Using the R Tidyverse Packages** 
-##**Highlights of these exercises** 
-###**Task 1.**  Make a single tibble which has all of the data for methylation and expression in it, as well as the gene annotation information.  *Important*: to merge data they have to have the same name.   
+# **Using the R Tidyverse Packages** 
+## **Highlights of these exercises** 
+### **Task 1.**  Make a single tibble which has all of the data for methylation and expression in it, as well as the gene annotation information.  *Important*: to merge data they have to have the same name.   
 `expression %>%
   rename (Probe=Gene)-> expression
   
